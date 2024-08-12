@@ -3,7 +3,6 @@
   margin: 0;
   text-decoration: none;
   box-sizing: border-box;
-
 }
 
 header {
@@ -20,10 +19,10 @@ header {
   gap: 10px;
 }
 
-.logo-container h1{
-    color: #0B132A;
-    font-size: 20px;
-    font-weight: 500;
+.logo-container h1 {
+  color: #0b132a;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 nav {
@@ -32,24 +31,24 @@ nav {
   gap: 37px;
 }
 
-nav a{
-    color: #4F5665;
-    font-size: 16px;
+nav a {
+  color: #4f5665;
+  font-size: 16px;
 }
 
-.login-container{
-    display: flex;
-    gap: 30px;
-    font-size: 16px;
+.login-container {
+  display: flex;
+  gap: 30px;
+  font-size: 16px;
 }
 
 .login-container :first-child {
-    background-color: #fff;
-    border: none;
-    border-radius: 50px;
-    width: 150px;
-    height: 45px;
-  }
+  background-color: #fff;
+  border: none;
+  border-radius: 50px;
+  width: 150px;
+  height: 45px;
+}
 
 .login-container :last-child {
   background-color: #fff;
@@ -57,7 +56,10 @@ nav a{
   border-radius: 50px;
   width: 150px;
   height: 45px;
-  color: #f53838 ;
+  color: #f53838;
+}
+
+main {
 }
 
 .section-about {
@@ -68,20 +70,20 @@ nav a{
   gap: 40px;
 }
 
-.section-container{
-    width: 555px;
+.section-container {
+  width: 555px;
 }
 
-.section-container h2{
-    font-size: 50px;
-    font-weight: 500;
-    margin-top: 28px;
+.section-container h2 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: 28px;
 }
 
-.section-container p{
-    font-size: 16px;
-    margin-top: 20px;
-    color: #4F5665;
+.section-container p {
+  font-size: 16px;
+  margin-top: 20px;
+  color: #4f5665;
 }
 
 .section-about button {
@@ -91,10 +93,76 @@ nav a{
   height: 60px;
   border-radius: 10px;
   margin-top: 50px;
-  box-shadow: 2px 2px 2px 1px rgba(245, 56, 56, 0.35);
+  box-shadow: 6px 20px 20px 1px rgba(245, 56, 56, 0.35);
   color: white;
   font-size: 16px;
   font-weight: 700;
 }
 
+.section-articles {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 102px;
+  height: 200px;
+  box-shadow: 20px 20px 20px 0px rgba(2, 2, 2, 0.35);
+  border-radius: 10px;
+  margin-left: 150px;
+  margin-right: 150px; 
+  
+}
+.section-articles article:last-child{
+  display: flex;
+  gap: 36px;
+  border-right: none;
+}
+.section-articles article{
+  display: flex;
+  gap: 36px;
+  border-right: 2px solid rgba(238, 239, 242, 1);
 
+}
+.section-articles div{
+  margin-right: 130px;
+}
+
+.section-articles img{
+  margin-left: 92px;
+}
+
+.section-articles h1{
+  font-size: 25px;
+  font-weight: 700;
+  color: #0b132a;
+}
+.section-articles h2{
+  font-size: 20px;
+  font-weight: 400;
+  color: #4F5665;
+}
+
+.section-features{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 170px;
+  margin-top: 96px;
+}
+
+.section-features h1{
+  font-size: 35px;
+  font-weight: 500px;
+}
+.section-features p{
+  font-size: 16px;
+  font-weight: 400px;
+  color: #4F5665;
+}
+
+.section-features .list{
+  display: flex;
+}
+.section-features .list img{
+  display: flex;
+}
