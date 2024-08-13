@@ -59,7 +59,8 @@ nav a {
   color: #f53838;
 }
 
-main {}
+main {
+}
 
 .section-about {
   display: flex;
@@ -109,7 +110,6 @@ main {}
   border-radius: 10px;
   margin-left: 150px;
   margin-right: 150px;
-
 }
 
 .section-articles article:last-child {
@@ -122,7 +122,6 @@ main {}
   display: flex;
   gap: 36px;
   border-right: 2px solid rgba(238, 239, 242, 1);
-
 }
 
 .section-articles div {
@@ -142,7 +141,7 @@ main {}
 .section-articles h2 {
   font-size: 20px;
   font-weight: 400;
-  color: #4F5665;
+  color: #4f5665;
 }
 
 .section-features {
@@ -150,7 +149,7 @@ main {}
   justify-content: center;
   align-items: center;
   gap: 170px;
-  margin-top: 96px;
+  margin: 96px 150px 0 185px;
 }
 
 .section-features h1 {
@@ -161,7 +160,7 @@ main {}
 .section-features p {
   font-size: 16px;
   font-weight: 400px;
-  color: #4F5665;
+  color: #4f5665;
   margin-top: 20px;
 }
 
@@ -170,12 +169,36 @@ main {}
   gap: 10px;
   margin-top: 20px;
   font-size: 14px;
-  font-weight: 400  ;
-  color: #4F5665;
+  font-weight: 400;
+  color: #4f5665;
 }
 
 .section-features .list img {
   display: flex;
+}
+
+.section-plan{
+  background-color: #FBFBFB;
+  margin-top: 120px;
+}
+
+.section-plan .title{
+  padding-top: 80px;
+}
+
+.section-plan h1 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold 500;
+  margin-top: 80px;
+}
+
+.section-plan h3 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4f5665;
+  margin-top: 20px;
 }
 
 .section-plan .articles {
@@ -188,28 +211,13 @@ main {}
 .section-plan article {
   width: 330px;
   height: 760px;
-  border: 2px solid #DDDDDD;
-  display: flex;  
+  border: 2px solid #dddddd;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 60px;
   border-radius: 10px;
-}
-
-.section-plan h1 {
-  text-align: center;
-  font-size: 35px;
-  font-weight: 500;
-  margin-top: 80px;
-}
-
-.section-plan h3 {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 400;
-  color: #4F5665;
-  margin-top: 20px;
 }
 
 .section-plan .img-box {
@@ -222,20 +230,76 @@ main {}
 
 .section-plan article .paragrafo {
   margin-top: 30px;
+  height: 190px;
 }
-.section-plan article .paragrafo p{
+.section-plan article .paragrafo p {
   align-items: center;
   display: flex;
   flex-direction: row;
   margin-top: 10px;
-  color: #4F5665;
+  color: #4f5665;
   font-weight: 400;
 }
-.section-plan article .paragrafo img{
+.section-plan article .paragrafo img {
   margin-right: 20px;
 }
-.section-plan article h1{
+.section-plan article h1 {
   font-size: 25px;
-  font-weight: bold;
+  font-weight: 500;
   color: #0b132a;
+}
+
+.section-plan button {
+  width: 177.88px;
+  height: 62px;
+  margin: 20px 0 50px 0;
+  left: 1011.06px;
+  border: none;
+  background-color: #f53838;
+  border-radius: 50px;
+  box-shadow: 5px 4px 20px 0px rgba(245, 56, 56, 1);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.section-network{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 150px;
+  background-color: #FBFBFB;
+}
+
+.section-plan .title{
+  padding-top: 80px;
+}
+
+.section-network h1 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.section-network h3 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4f5665;
+  margin-top: 20px;
+}
+
+.section-network img{
+  margin-top: 156px;
+}
+
+.section-network .sponsored{
+  margin-top: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin: 0 160px 0 145px;
+
 }
